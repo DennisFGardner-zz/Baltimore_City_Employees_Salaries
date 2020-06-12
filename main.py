@@ -34,4 +34,6 @@ for spine in ax.spines.values():
     spine.set_edgecolor('w')
     spine.set_linewidth(3.0)
 
+plt.savefig('./figs/gross_sum_billions.png', facecolor=fig.get_facecolor(), edgecolor='none')
 plt.show()
+
